@@ -5,7 +5,7 @@
 
 // Implementación de funciones
 void llenarAray(arreglo_t* arr_struct) {
-    if (!arr_struct->arry_full) {
+    if (!arr_struct->arr_full) {
         for (int i = 0; i < arr_struct->size; i++) {
             arr_struct->array[i] = rand() % 101;
         }
